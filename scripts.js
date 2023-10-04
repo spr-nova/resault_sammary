@@ -1,15 +1,15 @@
 fetch("data.json")
-.then(function (response){
-  return response.json();
-})
-.then(function(results){
-  let place = document.getElementById("resau")
-  let out = "";
-  for(let resault of results){
-    out += `
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (results) {
+    let place = document.getElementById("resau");
+    let out = "";
+    for (let resault of results) {
+      out += `
     <div>
       <small>
-        <img src="${resault.icon}">
+        <img src="${resault.icon}" alt= "photo">
         ${resault.category}
       </small>
       <span>
@@ -17,7 +17,7 @@ fetch("data.json")
       /100
       </span>
     </div>
-    `
-  }
-  place.innerHTML = out;
-})
+    `;
+    }
+    place.innerHTML = out;
+  });
