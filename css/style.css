@@ -2,6 +2,7 @@
   transition: ease 0.3s;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 18px;
@@ -19,6 +20,7 @@ section {
   align-items: center;
   height: 100vh;
 }
+
 .cards-wrapper {
   width: 45%;
   margin: auto;
@@ -32,23 +34,28 @@ section {
   width: 50%;
   padding: 2rem;
 }
+
 @media (max-width: 768px) {
   .container {
     width: 375px;
     padding: 10px;
     height: 1000px;
   }
+
   section {
     width: 100%;
   }
+
   .cards-wrapper {
     flex-direction: column;
     width: 80%;
   }
+
   .card {
     width: 100%;
   }
 }
+
 .gred {
   background-image: linear-gradient(
     to bottom,
@@ -58,9 +65,11 @@ section {
   border-radius: 30px;
   color: hsl(241, 100%, 89%);
 }
+
 .card .res {
   text-align: center;
 }
+
 .results {
   border-radius: 50%;
   background-image: linear-gradient(
@@ -77,6 +86,7 @@ section {
   flex-direction: column;
   color: hsl(241, 100%, 89%);
 }
+
 .results span {
   font-size: 58px;
   font-weight: 900;
@@ -84,13 +94,16 @@ section {
   margin-top: 15px;
   margin-bottom: -30px;
 }
+
 .discr {
   text-align: center;
   padding: 0 10px;
 }
+
 .discr h2 {
   color: white;
 }
+
 .sammary-wrapper div {
   padding: 10px;
   display: flex;
@@ -100,12 +113,15 @@ section {
   padding: 10px;
   align-items: center;
 }
+
 .sammary-wrapper div:hover {
   transform: scale(1.1);
 }
+
 .sammary-wrapper div:first-child {
   background-color: hsl(0deg 100% 67% / 10%);
 }
+
 .sammary-wrapper div:first-child small {
   color: hsl(0deg 100% 67%);
 }
@@ -113,6 +129,7 @@ section {
 .sammary-wrapper div:nth-child(2) {
   background-color: hsl(39deg 100% 56% / 10%);
 }
+
 .sammary-wrapper div:nth-child(2) small {
   color: hsl(39, 100%, 56%);
 }
@@ -120,6 +137,7 @@ section {
 .sammary-wrapper div:nth-child(3) {
   background-color: hsl(166deg 100% 37% / 10%);
 }
+
 .sammary-wrapper div:nth-child(3) small {
   color: hsl(166, 100%, 37%);
 }
@@ -127,12 +145,15 @@ section {
 .sammary-wrapper div:last-child {
   background-color: hsl(234deg 85% 45% / 10%);
 }
+
 .sammary-wrapper div:last-child small {
   color: hsl(234, 85%, 45%);
 }
+
 .sammary-wrapper div small{
   display: flex;
 }
+
 .sammary-wrapper div small img {
   margin-right: 10px;
 }
@@ -140,12 +161,14 @@ section {
 .sammary-wrapper div span {
   color: hsl(241, 100%, 89%);
 }
+
 .sammary-wrapper div span span {
   color: hsl(224, 30%, 27%);
   margin-right: 20px;
   font-size: 20px;
   font-weight: 900;
 }
+
 button {
   width: 100%;
   color: white;
@@ -160,6 +183,7 @@ button {
     hsl(241, 81%, 54%)
   );
 }
+
 button:hover {
   transform: scale(1.1);
   letter-spacing: 1px;
