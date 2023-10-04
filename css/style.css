@@ -130,7 +130,10 @@ section {
 .sammary-wrapper div:last-child small {
   color: hsl(234, 85%, 45%);
 }
-.sammary-wrapper div small svg {
+.sammary-wrapper div small{
+  display: flex;
+}
+.sammary-wrapper div small img {
   margin-right: 10px;
 }
 

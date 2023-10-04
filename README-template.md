@@ -28,14 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+[web](./web.png)
+[mobile](./mobile.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/spr-nova/resault_sammary)
+- Live Site URL: (https://spr-nova.github.io/resault_sammary/)
 
 ## My process
 
@@ -65,6 +65,7 @@ I learned how to do a gredient in background
   )
 };
 ```
+how to use data json
 
 ```js
 const proudOfThisFunc = () => {
@@ -77,12 +78,13 @@ const proudOfThisFunc = () => {
 ### Continued development
 
 - Theory of color
+- Json in javascript
 
 
 ### Useful resources
 
-- [Elzero](https://www.youtube.com/watch?v=Skjr9fycnio) - helps me in gredient.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [gredien](https://www.youtube.com/watch?v=Skjr9fycnio) - helps me in gredient.
+- [fetching](https://www.youtube.com/watch?v=eS-FVnhjvEQ) - This is an amazing video that helped me use fetch to take data from data.json
 
 ## Author
 
