@@ -1,0 +1,167 @@
+* {
+  transition: ease 0.3s;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  background-color: #eee;
+
+
+}
+
+.container {
+  width: 1400px;
+  margin: auto;
+  position: relative;
+
+}
+
+section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.cards-wrapper {
+  width: 45%;
+  margin: auto;
+  display: flex;
+  background-color: white;
+  border-radius: 30px;
+  justify-content: center;
+
+
+}
+
+.card {
+  width: 50%;
+  padding: 2rem;;
+}
+@media (max-width:768px) {
+  .container {
+    width: 375px;
+  }
+  section {
+    width: 100%;
+  }
+  .cards-wrapper {
+    flex-direction: column;
+    width: 80%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+.gred {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%) 10%,
+    hsl(241, 81%, 54%)
+  );
+  border-radius: 30px;
+  color: hsl(241, 100%, 89%);
+}
+.card .res {
+  text-align: center;
+}
+.results {
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1) 20%,
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  color: hsl(241, 100%, 89%);
+}
+.results span {
+  font-size: 58px;
+  font-weight: 900;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: -30px;
+}
+.discr {
+  text-align: center;
+  padding: 0 10px;
+}
+.discr h2 {
+  color: white;
+}
+.sammary-wrapper div {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+  align-items: center;
+}
+.sammary-wrapper div:hover {
+  transform: scale(1.1);
+}
+.sammary-wrapper div:first-child {
+  background-color: hsl(0deg 100% 67% / 10%);
+}
+.sammary-wrapper div:first-child small {
+  color: hsl(0deg 100% 67%);
+}
+
+.sammary-wrapper div:nth-child(2) {
+  background-color: hsl(39deg 100% 56% / 10%);
+}
+.sammary-wrapper div:nth-child(2) small {
+  color: hsl(39, 100%, 56%);
+}
+
+.sammary-wrapper div:nth-child(3) {
+  background-color: hsl(166deg 100% 37% / 10%);
+}
+.sammary-wrapper div:nth-child(3) small {
+  color: hsl(166, 100%, 37%);
+}
+
+.sammary-wrapper div:last-child {
+  background-color: hsl(234deg 85% 45% / 10%);
+}
+.sammary-wrapper div:last-child small {
+  color: hsl(234, 85%, 45%);
+}
+.sammary-wrapper div small svg {
+  margin-right: 10px;
+}
+
+.sammary-wrapper div span {
+  color: hsl(241, 100%, 89%);
+}
+.sammary-wrapper div span span {
+  color: hsl(224, 30%, 27%);
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 900;
+}
+button {
+  width: 251px;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 50px;
+  padding: 10px;
+  margin-top: 20px;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%) 10%,
+    hsl(241, 81%, 54%)
+  );
+}
+button:hover {
+  transform: scale(1.1);
+  letter-spacing: 1px ;
+}
