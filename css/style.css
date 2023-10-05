@@ -7,7 +7,7 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 18px;
   margin: 0;
-  background-color: #eee;
+
 }
 
 .container {
@@ -28,6 +28,7 @@ section {
   background-color: white;
   border-radius: 30px;
   justify-content: center;
+  box-shadow: 1px 1px 49px 17px #eee;
 }
 
 .card {
@@ -150,7 +151,7 @@ section {
   color: hsl(234, 85%, 45%);
 }
 
-.sammary-wrapper div small{
+.sammary-wrapper div small {
   display: flex;
 }
 
